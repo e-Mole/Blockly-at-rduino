@@ -75,6 +75,7 @@ head.load(
 "blocks/RTC_DS3231/blocks_typing.js",
 "blocks/Adafruit/Adafruit_SSD1306/blocks_typing.js",
 "blocks/LoRa/blocks_typing.js",
+"blocks/molegraph/blocks_typing.js",
 function() {
     // Call a function when done
     console.log("Done loading Blocks typing");
