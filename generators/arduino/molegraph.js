@@ -133,51 +133,58 @@ Blockly.Arduino['molegraph_u01_com'] = function() {
   return code;
 };
 
-Blockly.Arduino['molegraph_u01_port'] = function(block) {
+Blockly.Arduino['molegraph_u01_port'] = function() {
   //IMPORTANT: delete unneeded lines
   var dropdown_mg_u01_port = block.getFieldValue('mg_u01_port');
   var dropdown_mg_u01_pin = block.getFieldValue('mg_u01_pin');
-  Blockly.Arduino.includes_[] = 'libraries code'
-  Blockly.Arduino.variables_[] = 'variables'
-  Blockly.Arduino.definitions_[] = 'instance''
-  Blockly.Arduino.userFunctions_[] = 'functions'
-  Blockly.Arduino.setups_[]='arduino code for setup()'
-  var code = 'arduino code for loop()'
-  return [code, Blockly.Arduino.ORDER_ATOMIC];
+  Blockly.Arduino.includes_[] = 'libraries code';
+  Blockly.Arduino.variables_[] = 'variables';
+  Blockly.Arduino.definitions_[] = 'instance';
+  Blockly.Arduino.userFunctions_[] = 'functions';
+  Blockly.Arduino.setups_[]='arduino code for setup()';
+  var code = 'arduino code for loop()';
+  
+  //return [code, Blockly.Arduino.ORDER_ATOMIC];
+  return code;
 };
 
-Blockly.Arduino['molegraph_u01_pullup'] = function(block) {
+Blockly.Arduino['molegraph_u01_pullup'] = function() {
   var dropdown_mg_u01_port = block.getFieldValue('mg_u01_port');
   var dropdown_mg_u01_on_of = block.getFieldValue('mg_u01_on_of');
-  Blockly.Arduino.includes_[] = 'libraries code'
-  Blockly.Arduino.variables_[] = 'variables'
-  Blockly.Arduino.definitions_[] = 'instance''
-  Blockly.Arduino.userFunctions_[] = 'functions'
-  Blockly.Arduino.setups_[]='arduino code for setup()'
-  var code = 'arduino code for loop()'
-  return [code, Blockly.Arduino.ORDER_ATOMIC];
+  Blockly.Arduino.includes_[] = 'libraries code';
+  Blockly.Arduino.variables_[] = 'variables';
+  Blockly.Arduino.definitions_[] = 'instance';
+  Blockly.Arduino.userFunctions_[] = 'functions';
+  Blockly.Arduino.setups_[]='arduino code for setup()';
+  var code = 'arduino code for loop()';
+  
+  //return [code, Blockly.Arduino.ORDER_ATOMIC];
+  return code;
 };
 
-Blockly.Arduino['molegraph_u01_button'] = function(block) {
+Blockly.Arduino['molegraph_u01_button'] = function() {
   var dropdown_mg_u01_button = block.getFieldValue('mg_u01_button');
   // TODO: Assemble JavaScript into code variable.
-  Blockly.Arduino.includes_[] = 'libraries code'
-  Blockly.Arduino.variables_[] = 'variables'
-  Blockly.Arduino.definitions_[] = 'instance''
-  Blockly.Arduino.userFunctions_[] = 'functions'
-  Blockly.Arduino.setups_[]='arduino code for setup()'
-  var code = 'arduino code for loop()'
-  return [code, Blockly.Arduino.ORDER_ATOMIC];
+  Blockly.Arduino.includes_[] = 'libraries code';
+  Blockly.Arduino.variables_[] = 'variables';
+  Blockly.Arduino.definitions_[] = 'instance';
+  Blockly.Arduino.userFunctions_[] = 'functions';
+  Blockly.Arduino.setups_[]='arduino code for setup()';
+  var code = 'arduino code for loop()';
+  
+  //return [code, Blockly.Arduino.ORDER_ATOMIC];
+  return code;
 };
 
-Blockly.Arduino['molegraph_u01_battery'] = function(block) {
+Blockly.Arduino['molegraph_u01_battery'] = function() {
   // TODO: Assemble JavaScript into code variable.
-  // TODO: Assemble JavaScript into code variable.
-  Blockly.Arduino.includes_[] = 'libraries code'
-  Blockly.Arduino.variables_[] = 'variables'
-  Blockly.Arduino.definitions_[] = 'instance''
-  Blockly.Arduino.userFunctions_[] = 'functions'
-  Blockly.Arduino.setups_[]='arduino code for setup()'
-  var code = 'arduino code for loop()'
-  return [code, Blockly.Arduino.ORDER_ATOMIC];
+  Blockly.Arduino.includes_[] = 'libraries code';
+  Blockly.Arduino.variables_[] = 'variables';
+  Blockly.Arduino.definitions_[] = 'instance';
+  Blockly.Arduino.userFunctions_[] = 'functions';
+  Blockly.Arduino.setups_[]='arduino code for setup()';
+  var code = 'arduino code for loop()';
+  
+  //return [code, Blockly.Arduino.ORDER_ATOMIC];
+  return code;
 };
