@@ -2526,9 +2526,14 @@
 	<category name="CAT_MBITBEAM" colour="#00138b">	
 	  <category name="CAT_MOLEGRAPH" colour="#00138b">
       <block type="molegraph_com"></block>
+	  <block type="molegraph_u01_com"></block>
+	  <block type="molegraph_u01_port"></block>
+	  <block type="molegraph_u01_pullup"></block>
+	  <block type="molegraph_u01_button"></block>
+	  <block type="molegraph_u01_battery"></block>
     </category>
 	  <category name="CAT_FRETKA" colour="#00138b">
-      <block type="fretka_test"></block>
+      <block type="fretka_run"></block>
     </category>       
 		<sep></sep>
 	</category>  

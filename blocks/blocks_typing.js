@@ -76,6 +76,8 @@ head.load(
 "blocks/Adafruit/Adafruit_SSD1306/blocks_typing.js",
 "blocks/LoRa/blocks_typing.js",
 "blocks/molegraph/blocks_typing.js",
+"blocks/fretka/blocks_typing.js",
+)
 function() {
     // Call a function when done
     console.log("Done loading Blocks typing");

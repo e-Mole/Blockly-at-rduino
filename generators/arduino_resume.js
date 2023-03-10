@@ -119,6 +119,7 @@ head.load(
 "generators/arduino/Adafruit_SSD1306.js",
 "generators/arduino/LoRa.js",
 "generators/arduino/molegraph.js",
+"generators/arduino/fretka.js",	
 
 function() {
     // Call a function when done

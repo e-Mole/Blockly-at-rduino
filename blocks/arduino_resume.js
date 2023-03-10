@@ -128,6 +128,8 @@ head.load(
 "blocks/Adafruit/Adafruit_SSD1306/Adafruit_SSD1306.js",
 "blocks/LoRa/LoRa.js",
 "blocks/molegraph/molegraph.js",
+"blocks/fretka/fretka.js",
+
 function() {
     // Call a function when done
     console.log("Done loading Various Blocks");
