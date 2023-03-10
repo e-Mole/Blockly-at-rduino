@@ -19,6 +19,8 @@ function() {
 });
 
 head.load(
+"generators/arduino/DHT.js",
+"generators/arduino/moje.js",
 "generators/arduino/anemometer.js",
 "generators/arduino/arduino_base.js",
 "generators/arduino/arduino_BT.js",
