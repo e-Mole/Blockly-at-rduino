@@ -484,23 +484,54 @@ Blockly.Blocks['grove_FIN_COURSE'] = {
   }
 };
 
+Blockly.Blocks['grove_12_Channel_Capacitive_Touch_Keypad'] = {
+  init: function() {
+    this.setColour(Blockly.Blocks.grove.HUE);
+    this.setHelpUrl(Blockly.Msg.GROVE_Capacitive_Touch_Keypad_HELPURL);
+	this.appendDummyInput()
+        .appendField(Blockly.Msg.GROVE_Capacitive_Touch_Keypad_TEXT)
+        .appendField(new Blockly.FieldImage(Blockly.pathToBlockly + 'blocks/seeed/grove/400px-12_Channel_Capacitive_Touch_Keypad.jpg', Blockly.Arduino.imageSize, Blockly.Arduino.imageSize))
+		.appendField(Blockly.Msg.GROVE_Capacitive_Touch_Keypad_INPUT1)
+		.appendField(new Blockly.FieldTextInput('', Blockly.Arduino.pinDigitalValidator), 'RxPIN')
+		.appendField(Blockly.Msg.GROVE_Capacitive_Touch_Keypad_INPUT2)
+		.appendField(new Blockly.FieldTextInput('', Blockly.Arduino.pinDigitalValidator), 'TxPIN');
+    this.setInputsInline(false);
+    this.setOutput(true, 'Boolean');
+    this.setTooltip(Blockly.Msg.GROVE_Capacitive_Touch_Keypad_TOOLTIP);
+  }
+};
+
+Blockly.Blocks['grove_gas_sensor_SGP30'] = {
+  init: function() {
+    this.setColour(Blockly.Blocks.grove.HUE);
+    this.setHelpUrl(Blockly.Msg.GROVE_SGP30_HELPURL);
+    this.appendDummyInput()
+      .appendField(new Blockly.FieldImage(Blockly.pathToBlockly + 'blocks/seeed/grove/SGP30.jpg', Blockly.Arduino.imageSize, Blockly.Arduino.imageSize))
+      .appendField(Blockly.Msg.GROVE_SGP30_TEXT)
+      .appendField(new Blockly.FieldDropdown([[Blockly.Msg.GROVE_SGP30_INPUT1, "CO2"], [Blockly.Msg.GROVE_SGP30_INPUT2, "TVOC"]]), "TYPE");
+    this.setInputsInline(true);
+    this.setOutput(true, 'Number');
+    this.setTooltip(Blockly.Msg.GROVE_SGP30_TOOLTIP);
+  }
+};
+
 Blockly.Blocks['grove_dht_read'] = {
   init: function() {
     this.setColour(Blockly.Blocks.grove.HUE);
-    this.setHelpUrl(Blockly.Msg.GROVE_INOUT_DHT_HELPURL);
+    this.setHelpUrl(Blockly.Msg["GROVE_INOUT_DHT_HELPURL"]);
     this.appendDummyInput()
       .appendField(Blockly.Msg.GROVE_INOUT_DHT_READ_TYPE)
-      .appendField(new Blockly.FieldDropdown([[Blockly.Msg.GROVE_INOUT_DHT_READ_H,"h"],[Blockly.Msg.GROVE_INOUT_DHT_READ_C,"C"],[Blockly.Msg.GROVE_INOUT_DHT_READ_F,"F"]]), "TYPE");
+      .appendField(new Blockly.FieldDropdown([[Blockly.Msg["GROVE_INOUT_DHT_READ_H"],"h"],[Blockly.Msg["GROVE_INOUT_DHT_READ_C"],"C"],[Blockly.Msg["GROVE_INOUT_DHT_READ_F"],"F"]]), "TYPE");
     this.appendDummyInput()
       .appendField(new Blockly.FieldImage(Blockly.pathToBlockly + 'blocks/seeed/grove/dht11.jpg', Blockly.Arduino.imageSize, Blockly.Arduino.imageSize))
-      .appendField(Blockly.Msg.GROVE_INOUT_DHT_READ_SENSOR)
+      .appendField(Blockly.Msg["GROVE_INOUT_DHT_READ_SENSOR"])
       .appendField(new Blockly.FieldDropdown([["DHT11","DHT11"],["DHT21","DHT21"],["DHT22","DHT22"]]), "SENSOR");
     this.appendDummyInput()
-      .appendField(Blockly.Msg.GROVE_INOUT_DHT_READ_PIN)
+      .appendField(Blockly.Msg["GROVE_INOUT_DHT_READ_PIN"])
       .appendField(new Blockly.FieldTextInput('',  Blockly.Arduino.pinDigitalValidator), 'PIN');
     this.setInputsInline(true);
     this.setOutput(true, 'Number');
-    this.setTooltip(Blockly.Msg.GROVE_INOUT_DHT_READ_TOOLTIP);
+    this.setTooltip(Blockly.Msg["GROVE_INOUT_DHT_READ_TOOLTIP"]);
   }
 };
 

@@ -399,6 +399,29 @@ Blockly.Msg.CAT_OTTOH = "humanoid"; //added 06/10/2019
 
 Blockly.Msg.CAT_VIRTUINO = "Virtuino"; //added 08/05/2020
 
+Blockly.Msg.CAT_STENDHAL = "Collège Stendhal";  //added 10/09/2020
+Blockly.Msg.CAT_STENDHAL_IN = " - CAPTER";
+Blockly.Msg.CAT_STENDHAL_DIGITAL2 = "  * * Logique";
+Blockly.Msg.CAT_STENDHAL_ANALOG2 = "  * * Analogique";
+Blockly.Msg.CAT_STENDHAL_DIGITAL3 = "  . . . Logique";
+Blockly.Msg.CAT_STENDHAL_ANALOG3 = "  . . . Analogique";
+Blockly.Msg.CAT_STENDHAL_DEAL = "  * * Télérupteurs";
+Blockly.Msg.CAT_STENDHAL_OUT = " - ACTIONNER";
+Blockly.Msg.CAT_STENDHAL_OUT_MOTOR = "  * * Mouvement";
+Blockly.Msg.CAT_STENDHAL_OUT_MOTOR_SERVO = "  . . . Servomoteurs";
+Blockly.Msg.CAT_STENDHAL_OUT_MOTOR_CLASSIC = "  . . . Moteurs à courant continu";
+Blockly.Msg.CAT_STENDHAL_OUT_MOTOR_PAP = "  . . . Moteurs pas à pas";
+Blockly.Msg.CAT_STENDHAL_OUT_LIGHT = "  * * Lumière";
+Blockly.Msg.CAT_STENDHAL_OUT_SOUND = "  * * Son";
+Blockly.Msg.CAT_STENDHAL_COMM = " - COMMUNIQUER";
+Blockly.Msg.CAT_STENDHAL_COMM_LCD = "  * * Ecran LCD";
+Blockly.Msg.CAT_STENDHAL_COMM_LED = "  * * LED";
+Blockly.Msg.CAT_STENDHAL_COMM_BLUETOOTH = "  * * Bluetooth";
+Blockly.Msg.CAT_STENDHAL_COMM_USB = "  * * USB";
+Blockly.Msg.CAT_STENDHAL_BOARD = " - GERER CARTE MERE";
+Blockly.Msg.CAT_STENDHAL_TIME = "  * *  Horloge";
+Blockly.Msg.CAT_STENDHAL_MEMORY = "  * *  Mémoire";
+
 //**********************************Dropdown menus messages***********************************************
 
 Blockly.Msg.FIELDDROPDOWN = [["ВИСОКО", "HIGH"], ["НИСКО", "LOW"]];
@@ -782,6 +805,20 @@ Blockly.Msg.GROVE_FIN_COURSE_HELPURL = "http://www.technologieservices.fr/fr/a-a
 Blockly.Msg.GROVE_FIN_COURSE_TEXT = "sensor end of course";
 Blockly.Msg.GROVE_FIN_COURSE_INPUT = "on the PIN";
 Blockly.Msg.GROVE_FIN_COURSE_TOOLTIP = "input numeric";
+
+//************************************** ajouté 05/05/2021 \lang\BlocklyArduino **********************************************************
+Blockly.Msg.GROVE_Capacitive_Touch_Keypad_HELPURL = "https://wiki.seeedstudio.com/Grove-12-Channel-Capacitive-Touch-Keypad-ATtiny1616-/#applications";
+Blockly.Msg.GROVE_Capacitive_Touch_Keypad_TEXT = "key pressed on keypad";
+Blockly.Msg.GROVE_Capacitive_Touch_Keypad_INPUT1 = "connected on pin (Rx)";
+Blockly.Msg.GROVE_Capacitive_Touch_Keypad_INPUT2 = "and pin (Tx)";
+Blockly.Msg.GROVE_Capacitive_Touch_Keypad_TOOLTIP = "send back, via softserial, valule of key pressed on keypad";
+
+//************************************** ajouté 30/06/2021 \lang\BlocklyArduino **********************************************************
+Blockly.Msg.GROVE_SGP30_HELPURL = "https://wiki.seeedstudio.com/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/";
+Blockly.Msg.GROVE_SGP30_TEXT = "concentration of ";
+Blockly.Msg.GROVE_SGP30_INPUT1 = "carbon dioxide (CO2) in ppm";
+Blockly.Msg.GROVE_SGP30_INPUT2 = "volatile organic compounds (TVOC) in ppb";
+Blockly.Msg.GROVE_SGP30_TOOLTIP = "The SGP30 gas sensor returns the concentration of CO2 (in ppm) or TVOC (in ppb) in the air and is connected to the I2C bus.";
 
 //************************************** ajoute 16/03/2017 \lang\BlocklyArduino **********************************************************
 Blockly.Msg.GROVE_INOUT_BT_AT_HELPURL = "http://wiki.seeed.cc/Grove-Serial_Bluetooth_v3.0/";
